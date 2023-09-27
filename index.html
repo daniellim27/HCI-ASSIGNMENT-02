@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">    
+<head>
+    <style>
+    body{
+    background-image:url(pexels-henry-&-co-2341290.jpg) ;
+    background-image: no-repeat;
+    background-attachment:fixed;
+    background-size: 100% 100%;
+    font: 1em times;}
+    
+    .img{
+    position: absolute;
+    bottom: 0;
+    left: 22%; 
+    transform: translateX(-50%);
+    }
+    
+    </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1 align="center">HCI ASSIGNMENT-02</h1>
+
+    <section>
+        
+    <h2 align = "center">Hotel Booking form</h2>
+    <form>
+         <fieldset> 
+            <legend><h2> Member</h2> </legend>
+            <table border="1">  `
+         <tr>
+            <td colspan="2">Data</td>
+         </tr>
+         <tr>
+            <td rowspan="2"><label for="fullname">Full name: </label></td>
+            <td colspan="2"><input size ="90" placeholder="First name"  type="text" name="first"  required></td>
+        </tr>
+        <td><input size="90" placeholder="Last name"  type="text" name="last"  required></td>
+         <tr>
+            <td><label for ="email">Email:</label> </td>
+            <td> <input size="90" type="email" name="email" required></td>
+         </tr>
+         <tr>
+            <td><label for ="num">Phone number:</label></td>
+            <td><input size="90"  type="text" name ="num" required></td>
+        </table>  
+    </fieldset>     
+    </form>
+
+</section>
+
+   <h2>Accomodation</h2>
+    <form>
+        <fieldset>
+        <table align= "center" border="1"
+        <tr>
+        <td><label for  = "numofguests">Number of guests: </label></td>
+        <td><input colspa type = "radio" name ="one" id="one" value = "one">
+        <label for = "one">1</label>
+        <input type = "radio" name ="two" id="two" value = "two">
+        <label for = "two">2</label>
+        <input type = "radio" name ="three" id="three" value = "three">
+        <label for = "three">3</label>
+        <input type = "radio" name ="four" id="four" value = "four">
+        <label for = "four">4</label>
+        <input type = "radio" name ="more5" id="more5" value = "more5">
+        <label for = "more5">>5</label> </td>
+        </tr>
+        </td>   
+        <tr>
+        <td>Room type</td>
+        <td>
+            <input type = "checkbox" name ="single" id="single">
+                <label for="single">Single</label>
+            <input type = "checkbox" name ="double" id="double">
+                <label for = "double">Double </label>
+            <input type = "checkbox" name ="queen" id="queen">
+                <label for = "queen">Queen</label>
+            <input type = "checkbox" name ="king" id="king">
+                <label for = "king">King</label
+        </td>
+        </tr>
+        </fieldset>
+        <tr>
+        <td><label for = "checkin"> Check in:</label></td>
+        <td><input  type = "date" id = "checkin"></td>
+        </tr>
+        <tr>
+        <td>
+        <label for = "checkout"> Check out:</label>
+        </td>
+        <td>
+        <input type = "date" id = "checkout">
+         </td>
+        </table>
+        </fieldset>
+        <br><br>
+        <button><label>Submit</label></button>
+    </form>
+    <br><br><br><br><br>
+    <figure>
+        <img src = "download.jpeg" alt = "img", class="img" >
+    </figure>
+
+
+</body>
+</html>
